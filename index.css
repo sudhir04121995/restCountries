@@ -1,0 +1,71 @@
+
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #073B68;
+  }
+  
+  #child {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(80deg,rgb(243, 238, 238),rgb(102, 102, 102));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  border: 2px solid gray;
+  border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+ 
+  
+  
+  
+  #flag {
+    height: 200px;
+    width: 300px;
+  }
+  
+  #country, #capital,#region,#code{
+    text-align: center;
+    color: white;
+    padding: -50px;
+  }
+  
+  #country {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px; 
+    background: black; 
+    color: white;
+  }
+  
+  #temp {
+    text-align: center;
+  }
+  
+  #temp h3 {
+   
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  #temp button {
+    
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #temp button:hover {
+    background: #0056b3;
+  }
+  
